@@ -88,7 +88,14 @@ section#title h1 {
 section#title p {
   width: 80vw;
   line-height: 30px;
-  margin: 8vh 10vw 4vh 10vw;
+  margin: 5vh 10vw 4vh 10vw;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-style: none;
 }
 /* CSS for main section */
 section#main {
