@@ -11,11 +11,31 @@
     <section id='title'>
       <div class='logo'>
         <object data="images/logo.svg" type="image/svg+xml">
-          
         </object>
-        logo goes here
       </div>
-      <h1> Title </h1>
+       <svg id='title' viewbox='0 0 1400 100'>
+
+          <!-- Symbol -->
+          <symbol id="s-text">
+            <text text-anchor="middle"
+                    x="50%" y="50%" dy=".35em">
+                joseph go chua
+
+             </text>
+          </symbol>
+
+          <!-- Duplicate symbols -->
+          <use xlink:href="#s-text" class="text"
+                    ></use>
+          <use xlink:href="#s-text" class="text"
+                    ></use>
+          <use xlink:href="#s-text" class="text"
+                    ></use>
+          <use xlink:href="#s-text" class="text"
+                    ></use>
+          <use xlink:href="#s-text" class="text"
+                    ></use>
+      </svg>
       <p> description goes here </p>
       <button> Button here </button>
 
