@@ -7,7 +7,7 @@ body {
 }
 /* CSS for fancy title */
 svg#title {
-  font-size: 8.5em;
+  font-size: 9.2em;
   width: 100%;
   text-transform: uppercase;
 }
@@ -64,6 +64,13 @@ svg#title {
 }
 
 /* CSS for title section*/
+div.logo {
+  width: 13vw;
+  margin: 0 43.5vw;
+}
+.logo object {
+  margin: 5vh 0;
+}
 section#title {
   background-color: black;
   height: 100vh;
@@ -78,13 +85,10 @@ section#title h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
-div.logo {
-  width: 12vw;
-  margin: 0 44vw;
-}
-.logo object {
-  margin: 7vh 0
-  8vh 0;
+section#title p {
+  width: 80vw;
+  line-height: 30px;
+  margin: 8vh 10vw 4vh 10vw;
 }
 /* CSS for main section */
 section#main {
