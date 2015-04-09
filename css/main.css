@@ -20,6 +20,13 @@ section#title h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+div.logo {
+  width: 10vw;
+  margin: 0 45vw;
+}
+.logo object {
+  margin: 3vh 0px;
+}
 /* CSS for main section */
 section#main {
   background-color: dodgerblue;
