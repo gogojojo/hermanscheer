@@ -125,9 +125,8 @@ section#footer {
 section#footer h1 {
   font-size: .7em;
   color: #6888A5;
-  margin: 0;
   font-weight: 700;
-  padding: 5vh 0 4vh 0;
+  padding: 3vh 0 3vh 0;
 }
 section#footer img {
   height: 10vh;

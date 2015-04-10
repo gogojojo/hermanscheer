@@ -1,7 +1,22 @@
 /* Query for small screens */
-@media (max-width: 800px) {
+@media (max-height: 500px) {
   body {
     font-size: 12px;
+  }
+  p {
+    font-size: .9em;
+  }
+  button {
+    font-size: .8em;
+    padding: 7.5px 20px;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    font-size: 12px;
+  }
+  section#title p {
+    line-height: 18px;
   }
   button {
     font-size: .8em;
@@ -21,10 +36,58 @@
   }
   div#textholder {
   height: 80%;
-  margin: 10% 5%;
+  margin: 15vh 5%;
   }
   div#profile{
   height: 90%;
   margin: 5%;
   }
+  section#footer h1 {
+  position: relative;
+  top: 12px;
+  font-size: .6em;
+  padding: 3vh 10% 1vh 10%;
+}
+}
+@media (max-device-width: 736px) {
+  body {
+    font-size: 14px;
+  }
+  section#title p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+  button {
+    font-size: .8em;
+    padding: 7.5px 20px;
+  }
+  div#right {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#left {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#textholder {
+  height: 80%;
+  margin: 15vh 5%;
+  }
+  div#profile{
+  height: 90%;
+  margin: 5%;
+  }
+  section#footer h1 {
+  position: relative;
+  top: 12px;
+  font-size: .6em;
+  padding: 3vh 10% 1vh 10%;
+}
 }
