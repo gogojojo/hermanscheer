@@ -48,7 +48,7 @@
   font-size: .6em;
   padding: 3vh 10% 1vh 10%;
   }
-  
+
 }
 /* Media Query for iphone 6+ and lower */
 @media (max-device-width: 736px) {
@@ -63,7 +63,7 @@
     font-size: 25px;
   }
   button {
-    font-size: .8em;
+    font-size: 1.2em;
     padding: 7.5px 20px;
   }
   div#right {
@@ -97,3 +97,38 @@
   margin: 0 2vw;
   }
 }
+/* Queries for ipads and Tablets */
+@media (max-device-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  section#title p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+   div#right {
+    height: 85%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#left {
+    height: 85%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#textholder {
+  height: 90%;
+  margin:  5%;
+  }
+  section#footer h1 {
+  position: relative;
+  top: 20px;
+  font-size: .6em;
+  padding: 3vh 10% 1vh 10%;
+  } 
+} 
