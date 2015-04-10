@@ -58,6 +58,7 @@ svg#title {
 /*css for profile animation*/
 .paused {
   -webkit-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @-webkit-keyframes triangle {
@@ -65,11 +66,27 @@ svg#title {
   10% { -webkit-transform: rotate(360deg);}
   100% { -webkit-transform: rotate(360deg);}
 }
+@keyframes triangle {
+  0% { transform: rotate(0deg);}
+  10% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
 object#triangle {
   -webkit-animation-name: triangle;
   -webkit-animation-duration: 15s;
+  animation-name: triangle;
+  animation-duration: 15s;
 }
 @-webkit-keyframes bball {
+  10% { top: 0px;}
+  12% { top: -20px;}
+  14% { top: 0px;}
+  16% { top: -20px;}
+  18% { top: 0px;}
+  20% { top: -20px;}
+  22% { top: 0px;}
+}
+@keyframes bball {
   10% { top: 0px;}
   12% { top: -20px;}
   14% { top: 0px;}
@@ -81,17 +98,31 @@ object#triangle {
 object#bball {
   -webkit-animation-name: bball;
   -webkit-animation-duration: 15s;
+  animation-name: bball;
+  animation-duration: 15s;
 }
 @-webkit-keyframes spawn {
   22% { -webkit-transform: scale(1);}
   28% { -webkit-transform: scale(1.2);}
   34% { -webkit-transform: scale(1);}
 }
+@keyframes spawn {
+  22% { transform: scale(1);}
+  28% { transform: scale(1.2);}
+  34% { transform: scale(1);}
+}
 object#spawn{
   -webkit-animation-name: spawn;
   -webkit-animation-duration: 15s;
+  animation-name: spawn;
+  animation-duration: 15s;
 }
-@-webkit-keyframes tv  {
+@-webkit-keyframes tv {
+  34% { left: 0px;}
+  39% { left: -200px;}
+  45% { left: 0px;}
+}
+@keyframes tv {
   34% { left: 0px;}
   39% { left: -200px;}
   45% { left: 0px;}
@@ -99,6 +130,8 @@ object#spawn{
 object#tv {
   -webkit-animation-name: tv;
   -webkit-animation-duration: 15s;
+  animation-name: tv;
+  animation-duration: 15s;
 }
 @-webkit-keyframes raiden {
   45% { -webkit-transform: translate(0) rotate(0deg); }
@@ -114,11 +147,32 @@ object#tv {
   55% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
   56% { -webkit-transform: translate(0) rotate(0); }
 }
+@keyframes raiden {
+  45% { transform: translate(0) rotate(0deg); }
+  46% { transform: translate(-1px, -2px) rotate(-1deg); }
+  47% { transform: translate(-3px, 0px) rotate(1deg); }
+  48% { transform: translate(0px, 2px) rotate(0deg); }
+  49% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  51% { transform: translate(-3px, 1px) rotate(0deg); }
+  52% { transform: translate(2px, 1px) rotate(-1deg); }
+  53% { transform: translate(-1px, -1px) rotate(1deg); }
+  54% { transform: translate(2px, 2px) rotate(0deg); }
+  55% { transform: translate(1px, -2px) rotate(-1deg); }
+  56% { transform: translate(0) rotate(0); }
+}
 object#raiden {
   -webkit-animation-name: raiden;
   -webkit-animation-duration: 15s;
+  animation-name: raiden;
+  animation-duration: 15s;
 }
 @-webkit-keyframes wolverine {
+  56% { opacity: 1;}
+  60% { opacity: 0;}
+  66% { opacity: 1;}
+}
+@keyframes wolverine {
   56% { opacity: 1;}
   60% { opacity: 0;}
   66% { opacity: 1;}
@@ -126,8 +180,18 @@ object#raiden {
 object#wolverine{
   -webkit-animation-name: wolverine;
   -webkit-animation-duration: 15s;
+  animation-name: wolverine;
+  animation-duration: 15s;
 }
 @-webkit-keyframes torch {
+  66% { top: 0; left: 0;}
+  69% { top: -100px;}
+  71% { left: 50px;}
+  73% { top: 200px;}
+  75% { left: 0;}
+  78% { top: 0;}
+}
+@keyframes torch {
   66% { top: 0; left: 0;}
   69% { top: -100px;}
   71% { left: 50px;}
@@ -138,17 +202,34 @@ object#wolverine{
 object#torch{
   -webkit-animation-name: torch;
   -webkit-animation-duration: 15s;
+  animation-name: torch;
+  animation-duration: 15s;
 }
 @-webkit-keyframes pizza  {
   78% { -webkit-transform: skew(0);}
   83% { -webkit-transform: skew(20deg, 40deg);}
   89% { -webkit-transform: skew(0);}
 }
+@keyframes pizza  {
+  78% { transform: skew(0);}
+  83% { transform: skew(20deg, 40deg);}
+  89% { transform: skew(0);}
+}
 object#pizza {
   -webkit-animation-name: pizza;
   -webkit-animation-duration: 15s;
+  animation-name: pizza;
+  animation-duration: 15s;
 }
 @-webkit-keyframes mike  {
+  89% { top: 0; left: 0;}
+  91% { top: 2000px;}
+  92% { left: -500px;}
+  93% { top: -2000px;}
+  94% { left: 0;}
+  100% { top: 0;}
+}
+@keyframes mike  {
   89% { top: 0; left: 0;}
   91% { top: 2000px;}
   92% { left: -500px;}
@@ -159,4 +240,6 @@ object#pizza {
 object#mike {
   -webkit-animation-name: mike;
   -webkit-animation-duration: 15s;
+  animation-name: mike;
+  animation-duration: 15s;
 }
