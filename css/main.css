@@ -62,10 +62,10 @@ div#left {
   float: left;
 }
 div#textholder {
-  height: 74%;
+  height: 60%;
   width: 90%;
   color: #FFFFFF;
-  margin: 13% 5%;
+  margin: 20% 5%;
   text-align: left;
   overflow: auto;
 }
@@ -73,11 +73,11 @@ div#textholder h2 {
   font-size: 2em;
   font-weight: 700;
   width: 90%;
-  margin: 5%;
+  margin: 0 5% 3vh 5%;
 }
 div#textholder p {
   width: 90%;
-  margin: 5%;
+  margin: 1.5vh 5%;
 }
   /*css for profile picture*/
 div#profile{
@@ -112,7 +112,7 @@ div.overlay h1 {
 
 section#footer {
   background-color: white;
-  height: 25vh;
+  height: 30vh;
   width: 100vw;
   font-size: 2.5em;
 }
@@ -120,9 +120,9 @@ section#footer h1 {
   color: #6888A5;
   margin: 0;
   font-weight: 700;
-  padding: 3vh 0 2vh 0;
+  padding: 5vh 0 2vh 0;
 }
 section#footer img {
-  height: 8vh;
-  margin: 0 5vw;
+  height: 10vh;
+  margin: 0 2vw;
 }
