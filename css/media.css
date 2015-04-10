@@ -1,0 +1,10 @@
+/* Query for small screens */
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  button {
+    font-size: .8em;
+    padding: 7.5px 20px;
+  }
+}

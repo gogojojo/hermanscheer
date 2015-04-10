@@ -43,6 +43,11 @@ button {
   border-radius: 3px;
   background-color: #92ffdf;
 }
+button:hover {
+  opacity: 0.7;
+  cursor: pointer; 
+  cursor: hand;
+}
 /* CSS for main section */
 section#main {
   background-color: #6888A5;
