@@ -31,8 +31,8 @@ section#title h1 {
 }
 section#title p {
   width: 80vw;
-  line-height: 30px;
-  margin: 5vh 10vw 4vh 10vw;
+  line-height: 25px;
+  margin: 4vh 10vw 4vh 10vw;
 }
 button {
   font-family: 'Montserrat', sans-serif;
