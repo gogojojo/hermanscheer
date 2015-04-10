@@ -1,10 +1,30 @@
 /* Query for small screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     font-size: 12px;
   }
   button {
     font-size: .8em;
     padding: 7.5px 20px;
+  }
+  div#right {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#left {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #6888A5;
+  }
+  div#textholder {
+  height: 80%;
+  margin: 10% 5%;
+  }
+  div#profile{
+  height: 90%;
+  margin: 5%;
   }
 }

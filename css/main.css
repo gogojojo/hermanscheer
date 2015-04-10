@@ -110,8 +110,9 @@ div.overlay {
   color: white;
 }
 div.overlay h1 {
-  margin-top: 30%;
+  margin: 25vh 10% 5vh 10%;
   font-size: 2em;
+
 }
 /* CSS for footer section */
 
