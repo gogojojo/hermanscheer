@@ -96,6 +96,7 @@ button {
   font-size: 1.2em;
   text-transform: uppercase;
   border-style: none;
+  border-radius: 3px;
 }
 /* CSS for main section */
 section#main {
@@ -110,11 +111,21 @@ div#right {
   float: right;
   background-color: yellow;
 }
+  /*css for profile picture*/
 div#profile{
   height: 75%;
   width: 90%;
-  background-color: blue;
+  background-color: white;
   margin: 13% 5%;
+  position: relative;
+}
+div#profile object {
+  height: 90%;
+  width: 90%;
+  margin: 5%;
+  position: absolute;
+  top:0;
+  left: 0;
 }
 div#left {
   height: 100%;

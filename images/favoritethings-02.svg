@@ -1,0 +1,11 @@
+
+<svg version="1.1" id="bball" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g>
+	<circle fill="#F7931E" stroke="#F7931E" stroke-miterlimit="10" cx="256.847" cy="390.994" r="54.465"/>
+	<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M223.429,349.056c0,0,32.583,60.828,13.643,92.699"/>
+	<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M273.392,339.091c0,0-7.755,92.53,17.172,94.68"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="246.481" y1="337.52" x2="265.333" y2="444.801"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="204.024" y1="404.308" x2="310.704" y2="382.854"/>
+</g>
+</svg>

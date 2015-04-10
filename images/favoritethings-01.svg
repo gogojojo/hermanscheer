@@ -1,0 +1,11 @@
+
+<svg id='triangle' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g>
+	<polygon fill="#0071BC" stroke="#0071BC" stroke-miterlimit="10" points="374.286,339.5 415.351,412.936 369.773,412.769 
+		361.65,427.969 441.073,427.365 393.238,339.5 	"/>
+	<path fill="#338DC9" stroke="#338DC9" stroke-miterlimit="10" d="M374.286,339.5l-1.234,2.26L326,427.949
+		c0,0,8.574,16.06,9.025,14.911s39.261-71.997,39.261-71.997l23.917,41.864l17.147,0.208"/>
+	<polygon fill="#00395E" stroke="#00395E" stroke-miterlimit="10" points="383.537,387.056 361.65,427.969 441.073,427.365 
+		433.854,443.704 335.025,442.86 374.286,370.863 	"/>
+</g>
+</svg>

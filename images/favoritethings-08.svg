@@ -1,0 +1,18 @@
+<svg version="1.1" id="pizza" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g>
+	<path fill="#FFFF00" stroke="#FFFF00" stroke-miterlimit="10" d="M187.405,85.996c0,0,30.125-31.221,113.296-30.512
+		l-30.443,105.723L187.405,85.996z"/>
+	<path fill="#C69C6D" stroke="#C69C6D" stroke-miterlimit="10" d="M196.621,94.362c0,0,56.572-32.321,99.561-23.184l4.52-15.694
+		c0,0-72.696-3.9-113.296,30.512L196.621,94.362z"/>
+	<circle fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" cx="256.028" cy="100.271" r="7.855"/>
+	<circle fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" cx="219.708" cy="97.84" r="8.297"/>
+	<circle fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" cx="260.231" cy="137.349" r="7.716"/>
+	<circle fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" cx="277.917" cy="82.232" r="7.31"/>
+	<path fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" d="M283.244,116.11c0,0-5.094-1.024-5.328-7.984
+		c-0.233-6.96,9.889-7.855,9.889-7.855L283.244,116.11z"/>
+	<path fill="#C26650" stroke="#B33F24" stroke-miterlimit="10" d="M225.354,120.444c0,0,10.333-5.994,14.535,0
+		c0,0,7.147,8.844,1.062,14.159L225.354,120.444z"/>
+	<path fill="#FFFF00" stroke="#999999" stroke-miterlimit="10" d="M240.952,134.604"/>
+</g>
+</svg>

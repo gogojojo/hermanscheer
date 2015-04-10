@@ -1,0 +1,11 @@
+
+<svg version="1.1" id="wolverine" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g>
+	<polygon fill="#333333" stroke="#333333" stroke-miterlimit="10" points="46.5,210.5 46.5,290.308 174.5,289.423 174.5,210.5 	"/>
+	<polygon fill="#808080" stroke="#808080" stroke-miterlimit="10" points="55.463,221.534 161.5,219.585 161.5,278.5 55.707,278.5 	
+		"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="100.545" y1="210.1" x2="81.944" y2="183.381"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="110.507" y1="210.1" x2="143.72" y2="183.381"/>
+</g>
+</svg>
