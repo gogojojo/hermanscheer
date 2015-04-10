@@ -9,7 +9,7 @@
 }
 object#triangle {
   -webkit-animation-name: triangle;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes bball {
   10% { top: 0px;}
@@ -22,7 +22,7 @@ object#triangle {
 }
 object#bball {
   -webkit-animation-name: bball;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes spawn {
   22% { -webkit-transform: scale(1);}
@@ -31,7 +31,7 @@ object#bball {
 }
 object#spawn{
   -webkit-animation-name: spawn;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes tv  {
   34% { left: 0px;}
@@ -40,7 +40,7 @@ object#spawn{
 }
 object#tv {
   -webkit-animation-name: tv;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes raiden {
   45% { -webkit-transform: translate(0) rotate(0deg); }
@@ -58,7 +58,7 @@ object#tv {
 }
 object#raiden {
   -webkit-animation-name: raiden;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes wolverine {
   56% { opacity: 1;}
@@ -67,7 +67,7 @@ object#raiden {
 }
 object#wolverine{
   -webkit-animation-name: wolverine;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes torch {
   66% { top: 0; left: 0;}
@@ -79,7 +79,7 @@ object#wolverine{
 }
 object#torch{
   -webkit-animation-name: torch;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes pizza  {
   78% { -webkit-transform: skew(0);}
@@ -88,7 +88,7 @@ object#torch{
 }
 object#pizza {
   -webkit-animation-name: pizza;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
 @-webkit-keyframes mike  {
   89% { top: 0; left: 0;}
@@ -100,5 +100,5 @@ object#pizza {
 }
 object#mike {
   -webkit-animation-name: mike;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
 }
