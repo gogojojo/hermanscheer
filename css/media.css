@@ -1,4 +1,4 @@
-/* Query for small screens */
+/* Media Query for small screens */
 @media (max-height: 500px) {
   body {
     font-size: 12px;
@@ -47,8 +47,10 @@
   top: 12px;
   font-size: .6em;
   padding: 3vh 10% 1vh 10%;
+  }
+  
 }
-}
+/* Media Query for iphone 6+ and lower */
 @media (max-device-width: 736px) {
   body {
     font-size: 14px;
@@ -65,20 +67,20 @@
     padding: 7.5px 20px;
   }
   div#right {
-    height: 100%;
+    height: 80%;
     width: 100%;
     display: inline-block;
     background-color: #6888A5;
   }
   div#left {
-    height: 100%;
+    height: 80%;
     width: 100%;
     display: inline-block;
     background-color: #6888A5;
   }
   div#textholder {
   height: 80%;
-  margin: 15vh 5%;
+  margin: 10vh 5%;
   }
   div#profile{
   height: 90%;
@@ -86,8 +88,12 @@
   }
   section#footer h1 {
   position: relative;
-  top: 12px;
+  top: 20px;
   font-size: .6em;
   padding: 3vh 10% 1vh 10%;
-}
+  } 
+  section#footer img {
+  height: 6vh;
+  margin: 0 2vw;
+  }
 }
