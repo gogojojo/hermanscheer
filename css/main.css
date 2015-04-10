@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  background-color: peachpuff;
 }
 /* CSS for fancy title */
 svg#title {
@@ -166,8 +167,19 @@ div.overlay h1 {
   font-size: 2em;
 }
 /* CSS for footer section */
+
 section#footer {
   background-color: peachpuff;
   height: 25vh;
   width: 100vw;
+  font-size: 2.5em;
+}
+section#footer h1 {
+  margin: 0;
+  font-weight: 700;
+  padding: 3vh 0 2vh 0;
+}
+section#footer img {
+  height: 8vh;
+  margin: 0 5vw;
 }
